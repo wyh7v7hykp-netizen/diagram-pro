@@ -1,0 +1,42 @@
+{
+  "name": "@tutule/diagram-pro",
+  "version": "1.0.4",
+  "description": "Fusion diagram skill: fireworks-tech-graph (22 types, 7 styles) + diagram-design (brand onboarding, editorial quality) + excalidraw-skill (visual self-review) + drawio-skill (OpenClaw native). Export SVG+PNG via rsvg-convert.",
+  "main": "SKILL.md",
+  "keywords": [
+    "claude-code",
+    "skill",
+    "diagram",
+    "svg",
+    "architecture",
+    "flowchart",
+    "uml",
+    "sequence-diagram",
+    "er-diagram",
+    "visualization"
+  ],
+  "author": "tutule (fusion skill, based on fireworks-tech-graph by yizhiyanhua-ai)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tutule/diagram-pro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tutule/diagram-pro/issues"
+  },
+  "homepage": "https://github.com/tutule/diagram-pro#readme",
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "README.zh.md",
+    "LICENSE",
+    "references/",
+    "scripts/",
+    "fixtures/",
+    "templates/",
+    "assets/"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

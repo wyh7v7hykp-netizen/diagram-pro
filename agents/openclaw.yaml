@@ -1,0 +1,38 @@
+# OpenClaw Agent Metadata
+# 继承自 Agents365-ai/drawio-skill 的 OpenClaw metadata 模式
+
+name: diagram-pro
+version: "1.0.0"
+description: "Fusion diagram skill — 融合 fireworks-tech-graph + diagram-design + excalidraw-skill + drawio-skill 四大顶级图表Skill精华"
+namespace: diagram-pro
+
+triggers:
+  keywords:
+    - 画图
+    - 架构图
+    - 流程图
+    - 时序图
+    - 可视化
+    - diagram
+    - 出图
+    - 思维导图
+    - ER图
+  patterns:
+    - "帮我画.*图"
+    - "生成.*架构"
+    - "来张.*图"
+    - "把这个.*可视化"
+    - "draw.*diagram"
+    - "generate.*architecture"
+
+capabilities:
+  diagram_types: 22
+  visual_styles: 7
+  uml_coverage: full_14_types
+  chinese_support: full
+  brand_onboarding: true
+  visual_self_review: true
+
+dependencies:
+  system:
+    - rsvg-convert  # brew install librsvg
