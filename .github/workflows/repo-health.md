@@ -2,6 +2,10 @@
 on:
   workflow_dispatch:
 
+engine:
+  id: copilot
+  model: gpt-5-codex
+
 permissions:
   contents: read
   copilot-requests: write
