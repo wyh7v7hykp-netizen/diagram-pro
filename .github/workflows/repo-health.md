@@ -4,7 +4,7 @@ on:
 
 engine:
   id: copilot
-  model: gpt-5.3-codex
+  model: haiku
 
 permissions:
   contents: read
