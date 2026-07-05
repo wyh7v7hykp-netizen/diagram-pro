@@ -3,12 +3,11 @@ on:
   workflow_dispatch:
 
 engine:
-  id: copilot
-  model: gpt-4
+  id: gemini
+  model: gemini-3-flash
 
 permissions:
   contents: read
-  copilot-requests: write
 
 network: defaults
 
