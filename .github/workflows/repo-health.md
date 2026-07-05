@@ -4,7 +4,7 @@ on:
 
 engine:
   id: gemini
-  model: gemini-3-flash
+  model: gemini-2.0-flash
 
 permissions:
   contents: read
